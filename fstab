@@ -1,0 +1,5 @@
+LABEL=writable	/	ext4	defaults	0	1
+LABEL=system-boot	/boot/firmware	vfat	defaults	0	1
+#syntax
+#UUID="yourUUID" /mnt/ntfs/ ntfs nls-utf8,umask-0222,uid-1000,gid-1000,ro 0 0
+UUID="69B0ECA0256B89A8" /mnt/nas-hdd-1/ ntfs nls-utf8,umask-0222,uid-1000,gid-1000,rw 0 0
